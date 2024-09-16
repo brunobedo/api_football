@@ -1,10 +1,9 @@
-# Football Data Collector
+# Football Data from api-football.com
 
-Este repositório contém um conjunto de scripts em Python desenvolvidos para coletar dados de futebol a partir da API Football (https://rapidapi.com/api-sports/api/api-football). O objetivo é criar uma base de dados contendo informações detalhadas sobre ligas, times, temporadas e estatísticas de jogos.
+Este repositório contém um conjunto de scripts em Python desenvolvidos para coletar dados de futebol a partir da API Football (https://rapidapi.com/api-sports/api/api-football). O objetivo é criar uma base de dados contendo informações sobre as partidas incluindo, por exemplo, resultados e scouts.
 
 ## Documentação da API 
 Toda a documentação da API pode ser encontrada em [https://www.api-football.com/documentation-v3](https://www.api-football.com/documentation-v3).
-
 
 ## Estrutura dos Arquivos
 - **`requests_apifootball.py`**: Contém as funções responsáveis por realizar as requisições à API Football e processar os dados retornados.
