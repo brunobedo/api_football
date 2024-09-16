@@ -7,8 +7,8 @@ Toda a documentação da API pode ser encontrada em [https://www.api-football.co
 
 
 ## Estrutura dos Arquivos
-- **requests_apifootball.py**: Contém as funções responsáveis por realizar as requisições à API Football e processar os dados retornados.
-- **get_stats.py**: Arquivo principal que coordena a coleta e processamento das estatísticas dos jogos, utilizando as funções definidas no `requests_apifootball.py`. Ele processa os dados de uma liga e temporada específicas e os armazena em arquivos CSV.
+- **`requests_apifootball.py`**: Contém as funções responsáveis por realizar as requisições à API Football e processar os dados retornados.
+- **`get_stats.py`**: Arquivo principal que coordena a coleta e processamento das estatísticas dos jogos, utilizando as funções definidas no `requests_apifootball.py`. Ele processa os dados de uma liga e temporada específicas e os armazena em arquivos CSV.
 
 ## Funcionalidades
 
@@ -29,8 +29,8 @@ Este arquivo contém a função principal:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/brunobedo/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/brunobedo/api_football.git
+   cd api_football
    ```
 
 2. Instale as dependências necessárias:
